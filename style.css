@@ -1,0 +1,154 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 0em 5em; */
+    width: 1200px;
+    margin: auto;
+
+    
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+ul > li {
+    padding: 1em;
+    margin: left;
+    align-items: flex-end;
+   
+    
+    
+    
+}
+
+.btn_menu {
+    border: solid 1px lightgrey;
+    border-radius: 30%;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.box {
+    background: lightgray;
+    position: relative;
+    /* width: 1200px; */
+    height: 100px;
+    /* width: 100%; */
+    
+
+}
+
+.round {
+    background: #fff;
+    /* position: static; */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* margin-top: 20px; */
+    margin: auto;
+    border: 1px solid lightslategrey;
+    box-shadow: lightslategrey;
+    
+}
+
+.initials {
+    display: block;
+    margin-top: 2em;
+    text-align: center;
+    
+}
+
+.specialybe {
+    margin-top: 0px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.pers_details {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-top: 1em;
+    
+}
+
+.h3_exp {
+    padding-top: 5em;
+    text-align: center;
+    padding: 2em;
+}
+
+.h3_port {
+    text-align: center;
+    /* align-content: top; */
+    position: relative;
+    padding-bottom: 2em;
+    
+
+    
+}
+
+.portfolio {
+    background: lightslategrey;
+    padding: 5em;
+}
+
+.images_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    }
+
+.images_2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    }    
+
+
+
+.img {
+    width: 150px;
+    height: 200px;
+    background: grey;
+    /* align-items: bottom; */
+    margin: 10px;
+    /* flex: 25%; */
+    color: #fff;
+    padding: 1em;
+         
+}
+
+.h3_contact {
+    text-align: center;
+    padding: 1em;
+}
+
+.contact {
+    text-align: center;
+
+}
+
+.email_f {
+    display: flex;
+    align-content: center;
+    
+}
+
+.phone_f {
+    display: flex;
+    text-align: center;
+}
